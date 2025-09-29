@@ -1,0 +1,17 @@
+.maps{
+    margin: 100px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.maps-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* For Firefox */
+}

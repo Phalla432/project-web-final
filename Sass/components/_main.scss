@@ -1,0 +1,27 @@
+main{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: linear-gradient(to right, rgba(213, 186, 85, 0.505) , rgba(44, 147, 203, 0.527));
+    padding: 50px;
+}
+.main-head-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* For Firefox */
+}
+.profile-describe{
+    display: flex;
+}
+.signature{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}

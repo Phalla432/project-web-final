@@ -1,0 +1,40 @@
+marquee {
+    margin: 10px 0px 0px 0px;
+}
+
+.head {
+    display: flex;
+    gap: 80px;
+    margin-top: 20px;
+    background-image: url(/Sass/Home-pictures/frame-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background: linear-gradient(to right, rgba(54, 142, 190, 0.527), rgba(209, 183, 89, 0.505));
+    padding: 80px 0px 40px 0px;
+}
+
+.head-describe {
+    // background-color: aqua;
+    flex: 2;
+    display: flex;
+    // background-color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.head-picture {
+    display: flex;
+    flex: 1;
+}
+
+.describe-head {
+    font-size: 70px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0c8fe7, #206e72, #1b76b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* For Firefox */
+}

@@ -2,12 +2,10 @@
   background-image: url(/images/pncPic.png);
   height: 100vh;
   background-size: cover;
-  margin-top: 20px;
   background-position: center;
 }
 
 .about-welcome {
-  margin-top: 40px;
   padding-top: 200px;
   padding-left: 100px;
   padding-right: 400px;
@@ -138,25 +136,39 @@ footer {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0px;
-  margin: 0px 40px 0px 40px;
+  padding: 0px 40px 0px 40px;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(to right, rgba(15, 171, 214, 0.2588235294), rgba(38, 150, 194, 0.2745098039), rgba(8, 216, 227, 0.4784313725));
 }
 
 .nav-left {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 40px;
+  margin-left: 40px;
+  flex: 1;
 }
 
 .nav-right {
   display: flex;
   color: rgb(4, 111, 177);
   font-weight: bold;
+  flex: 1;
 }
 
 .nav-name {
   display: flex;
   align-items: center;
+  font-size: x-large;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+  font-size: larger;
 }
 
 .my-challenges {

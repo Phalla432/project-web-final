@@ -1,0 +1,36 @@
+.mission{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 100px 80px 0px 80px;
+}
+.title, .titles{
+    display: flex;
+    justify-content: center;
+    // font-size: xx-large;
+    // font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.mission-detail{
+    display: flex;
+}
+.mission-left{
+    flex: 1.25;
+}
+.mission-right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+    justify-content: center;
+}
+.mission-des-head{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(225, 150, 10);
+}

@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-right {
+  display: flex;
+  color: rgb(4, 111, 177);
+  font-weight: bold;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=navbar.css.map */

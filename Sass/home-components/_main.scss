@@ -1,10 +1,10 @@
 main{
-    margin-top: 60px;
+    margin: 60px 40px 0px 40px;
     display: flex;
     flex-direction: column;
     gap: 40px;
     background: linear-gradient(to right, rgba(213, 186, 85, 0.505) , rgba(44, 147, 203, 0.527));
-    padding: 50px;
+    padding: 40px;
 }
 .main-head-title{
     display: flex;
@@ -24,4 +24,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 0px;
+}
+.main-describe{
+    color: white;
 }

@@ -1,13 +1,11 @@
-@import "components/_nav";
-@import "components/_head-home";
-@import "components/_main";
-@import "components/_education";
-@import "components/_maps";
-@import "components/_footer";
+@import "home-components/_nav";
+@import "home-components/_head";
+@import "home-components/_main";
+@import "home-components/_education";
+@import "home-components/_maps";
+@import "home-components/_footer";
 
 body{
-    padding: 10px 20px 20px 20px;
-    margin: 0px;
-    font-size: x-large;
+    font-size: large;
     font-family:Arial, Helvetica, sans-serif;
 }

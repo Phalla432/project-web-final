@@ -1,0 +1,27 @@
+.my-challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 100px 220px 0px 220px;
+}
+
+.challenges-above {
+    display: flex;
+    gap: 200px;
+}
+
+.challenge-left {
+    flex: 1;
+    background: linear-gradient(to right, #16728ccc, #857f09a4, #0bb7c070);
+    padding: 80px 40px 80px 40px;
+    border-radius: 60px 0px 60px 0px;
+    color: white;
+}
+
+.challenge-right {
+    flex: 1;
+    padding: 80px 40px 80px 40px;
+    background: linear-gradient(to right, #16728ccc, #857f09a4, #0bb7c070);
+    border-radius: 60px 0px 60px 0px;
+    color: white;
+}

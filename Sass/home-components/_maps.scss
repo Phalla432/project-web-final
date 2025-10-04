@@ -18,3 +18,18 @@
 iframe{
     margin-left: 70px;
 }
+
+@media (min-width:300px) and (max-width:800px){
+    .maps{
+        margin: 40px 0px 0px 0px;
+        gap: 10px;
+    }
+    .maps-title{
+        font-size: 20px;
+    }
+    iframe{
+        margin-left: 0px;
+        width: 450px;
+        height: 140px;
+    }
+}

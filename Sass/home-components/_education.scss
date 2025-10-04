@@ -29,3 +29,28 @@
     flex-direction: column;
     flex: 1;
 }
+
+@media (min-width:300px) and (max-width:800px){
+    .educations{
+        margin: 40px 10px 0px 10px;
+        gap: 10px;
+    }
+    .both-education{
+        display: flex;
+        gap: 10px;
+    }
+    .education{
+        padding: 10px;
+        gap: 10px;
+    }
+    .education-title{
+        font-size: 20px;
+    }
+    .right-in{
+        width: 190px;
+        height: 110px;
+    }
+    .before-pnc-describe, .in-pnc-describe{
+        font-size: x-small;
+    }
+}

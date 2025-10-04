@@ -23,7 +23,6 @@ footer{
 }
 .left-foot{
     display: flex;
-    gap: 10px;
 }
 .foot-name{
     display: flex;
@@ -38,7 +37,7 @@ footer{
     display: flex;
     gap: 20px;
 }
-.text1{
+.text{
     display: flex;
     align-items: center;
 }
@@ -48,4 +47,39 @@ footer{
 .foot-name{
     color: rgb(4, 111, 177);
     font-weight: bold;
+}
+
+@media (min-width:300px) and (max-width:800px){
+    footer{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    #icon{
+        width: 15px;
+        height: 15px;
+    }
+    p{
+        font-size: x-small;
+    }
+    .foot-right{
+        display: flex;
+        gap: 0px;
+    }
+    .foot-contact-icons{
+        display: flex;
+        gap: 0px;
+    }
+    .foot-name{
+        font-size: 6px;
+    }
+    #icons{
+        width: 20px;
+        height: 20px;
+    }
+    .foot-title{
+        font-size: 10px;
+    }
+    .text{
+        font-size: x-small;
+    }
 }

@@ -30,3 +30,29 @@ main{
     color: white;
     padding: 40px;
 }
+
+@media (min-width:300px) and (max-width:800px){
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px 0px 0px;
+        padding: 10px;
+        gap: 0px;
+    }
+    .main-head-title{
+        font-size: 20px;
+    }
+    .main-describe{
+        padding: 10px;
+        font-size:x-small;
+    }
+    .photo{
+        width: 100px;
+        height: 100px;
+    }
+    .signate{
+        width: 80px;
+        height: 80px;
+    }
+
+}

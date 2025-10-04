@@ -56,7 +56,7 @@ marquee {
   .nav-left {
     flex: 2;
     display: flex;
-    gap: 0px;
+    gap: 20px;
   }
   .web-logo {
     width: 40px;
@@ -117,8 +117,8 @@ marquee {
   }
   .head {
     display: flex;
-    flex-direction: column;
-    margin: 0px;
+    margin: 10px 20px;
+    gap: 20px;
   }
   .head-describe {
     display: flex;
@@ -133,7 +133,11 @@ marquee {
     justify-content: center;
   }
   .describe-paragraph {
-    font-size: small;
+    font-size: x-small;
+  }
+  .head-pic {
+    width: 200px;
+    height: 200px;
   }
 }
 main {
@@ -173,6 +177,30 @@ main {
   padding: 40px;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 0px;
+    padding: 10px;
+    gap: 0px;
+  }
+  .main-head-title {
+    font-size: 20px;
+  }
+  .main-describe {
+    padding: 10px;
+    font-size: x-small;
+  }
+  .photo {
+    width: 100px;
+    height: 100px;
+  }
+  .signate {
+    width: 80px;
+    height: 80px;
+  }
+}
 .educations {
   margin: 40px 80px 0px 80px;
   display: flex;
@@ -208,6 +236,30 @@ main {
   flex: 1;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .educations {
+    margin: 40px 10px 0px 10px;
+    gap: 10px;
+  }
+  .both-education {
+    display: flex;
+    gap: 10px;
+  }
+  .education {
+    padding: 10px;
+    gap: 10px;
+  }
+  .education-title {
+    font-size: 20px;
+  }
+  .right-in {
+    width: 190px;
+    height: 110px;
+  }
+  .before-pnc-describe, .in-pnc-describe {
+    font-size: x-small;
+  }
+}
 .maps {
   margin: 100px 20px 0px 20px;
   display: flex;
@@ -231,6 +283,20 @@ iframe {
   margin-left: 70px;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .maps {
+    margin: 40px 0px 0px 0px;
+    gap: 10px;
+  }
+  .maps-title {
+    font-size: 20px;
+  }
+  iframe {
+    margin-left: 0px;
+    width: 450px;
+    height: 140px;
+  }
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -291,6 +357,40 @@ footer {
   font-weight: bold;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  footer {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  #icon {
+    width: 15px;
+    height: 15px;
+  }
+  p {
+    font-size: x-small;
+  }
+  .foot-right {
+    display: flex;
+    gap: 0px;
+  }
+  .foot-contact-icons {
+    display: flex;
+    gap: 0px;
+  }
+  .foot-name {
+    font-size: 6px;
+  }
+  #icons {
+    width: 20px;
+    height: 20px;
+  }
+  .foot-title {
+    font-size: 10px;
+  }
+  .text {
+    font-size: x-small;
+  }
+}
 body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;

@@ -1,10 +1,12 @@
-.mission{
+.mission {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin: 100px 80px 0px 80px;
 }
-.title, .titles{
+
+.title,
+.titles {
     display: flex;
     justify-content: center;
     // font-size: xx-large;
@@ -16,21 +18,38 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.mission-detail{
+
+.mission-detail {
     display: flex;
 }
-.mission-left{
+
+.mission-left {
     flex: 1.25;
 }
-.mission-right{
+
+.mission-right {
     display: flex;
     flex-direction: column;
     gap: 40px;
     flex: 1;
     justify-content: center;
 }
-.mission-des-head{
+
+.mission-des-head {
     font-size: larger;
     font-weight: bold;
     color: rgb(225, 150, 10);
+}
+
+
+@media (min-width:300px) and (max-width:800px) {
+    .mission {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px 0px 0px 0px;
+    }
+    .titles{
+        font-size: 20px;
+    }
 }

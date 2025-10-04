@@ -44,8 +44,8 @@ marquee {
     }
     .head{
         display: flex;
-        flex-direction: column;
-        margin: 0px;
+        margin: 10px 20px ;
+        gap: 20px;
     }
     .head-describe{
         display: flex;
@@ -60,6 +60,10 @@ marquee {
         justify-content: center;
     }
     .describe-paragraph{
-        font-size: small;
+        font-size: x-small;
+    }
+    .head-pic{
+        width: 200px;
+        height: 200px;
     }
 }

@@ -19,10 +19,9 @@ nav {
 
 .nav-right {
   display: flex;
-  color: white;
+  color: rgb(4, 111, 177);
   font-weight: bold;
   flex: 1;
-  gap: 10px;
 }
 
 .nav-name {
@@ -37,6 +36,44 @@ a {
   font-size: larger;
 }
 
+marquee {
+  padding-top: 80px;
+  color: #1b76b3;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  nav {
+    display: flex;
+    font-size: smaller;
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .nav-left {
+    flex: 2;
+    display: flex;
+    gap: 20px;
+  }
+  .web-logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-name {
+    font-size: smaller;
+  }
+  a {
+    font-size: smaller;
+  }
+  marquee {
+    font-size: small;
+  }
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -65,7 +102,6 @@ footer {
 
 .left-foot {
   display: flex;
-  gap: 10px;
 }
 
 .foot-name {
@@ -84,7 +120,7 @@ footer {
   gap: 20px;
 }
 
-.text1 {
+.text {
   display: flex;
   align-items: center;
 }
@@ -98,6 +134,40 @@ footer {
   font-weight: bold;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  footer {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  #icon {
+    width: 15px;
+    height: 15px;
+  }
+  p {
+    font-size: x-small;
+  }
+  .foot-right {
+    display: flex;
+    gap: 0px;
+  }
+  .foot-contact-icons {
+    display: flex;
+    gap: 0px;
+  }
+  .foot-name {
+    font-size: 6px;
+  }
+  #icons {
+    width: 20px;
+    height: 20px;
+  }
+  .foot-title {
+    font-size: 10px;
+  }
+  .text {
+    font-size: x-small;
+  }
+}
 .pnc-back {
   background-image: url(/images/pnc-back.png);
   height: 90vh;

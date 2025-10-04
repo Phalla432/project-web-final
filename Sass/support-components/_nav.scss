@@ -17,9 +17,10 @@ nav{
 }
 .nav-right{
     display: flex;
-    color: rgb(4, 111, 177);
+    color: white;
     font-weight: bold;
     flex: 1;
+    gap: 10px;
 }
 .nav-name{
     display: flex;

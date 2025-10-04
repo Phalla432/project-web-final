@@ -1,7 +1,7 @@
 footer{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(to right, #0e657ded, #1d5064ee, #07737970);
+    background: linear-gradient(to right, #0e657d73, #1d5064a0, #07737970);
     color: white;
     padding: 20px;
     margin-top: 40px;
@@ -23,6 +23,7 @@ footer{
 }
 .left-foot{
     display: flex;
+    gap: 10px;
 }
 .foot-name{
     display: flex;
@@ -37,7 +38,14 @@ footer{
     display: flex;
     gap: 20px;
 }
-.text{
+.text1{
     display: flex;
     align-items: center;
+}
+.foot-title{
+    color: orange;
+}
+.foot-name{
+    color: rgb(4, 111, 177);
+    font-weight: bold;
 }

@@ -1,0 +1,47 @@
+.pnc-mission {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    .mission-title {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .mission-describe{
+        display: flex;
+        justify-content: center;
+        padding: 0px 240px 0px 240px;
+    }
+    .pic-mission{
+        margin-top: 80px;
+        height: 100vh;
+    }
+}
+
+.pnc-location{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    .location-title{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    iframe{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+}

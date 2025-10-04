@@ -9,12 +9,11 @@
   padding-top: 200px;
   padding-left: 100px;
   padding-right: 400px;
+  padding-bottom: 426px;
   font-size: 90px;
   font-weight: bold;
-  background: linear-gradient(to right, #0c8fe7, #206e72, #1b76b3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: linear-gradient(to right, rgba(23, 23, 23, 0.5803921569), rgba(26, 27, 27, 0.6117647059));
+  color: rgba(255, 255, 255, 0.559);
 }
 
 .mission {
@@ -85,7 +84,7 @@
 footer {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(to right, rgba(14, 101, 125, 0.9294117647), rgba(29, 80, 100, 0.9333333333), rgba(7, 115, 121, 0.4392156863));
+  background: linear-gradient(to right, rgba(14, 101, 125, 0.4509803922), rgba(29, 80, 100, 0.6274509804), rgba(7, 115, 121, 0.4392156863));
   color: white;
   padding: 20px;
   margin-top: 40px;
@@ -131,6 +130,15 @@ footer {
 .text {
   display: flex;
   align-items: center;
+}
+
+.foot-title {
+  color: orange;
+}
+
+.foot-name {
+  color: rgb(4, 111, 177);
+  font-weight: bold;
 }
 
 nav {

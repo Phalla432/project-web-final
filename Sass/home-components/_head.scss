@@ -37,3 +37,29 @@ marquee {
     background-clip: text;
     /* For Firefox */
 }
+
+@media (min-width:300px) and (max-width:800px) {
+    marquee{
+        margin: 0px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .head-describe{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .describe-head{
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .describe-paragraph{
+        font-size: small;
+    }
+}

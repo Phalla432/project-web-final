@@ -1,0 +1,73 @@
+.why-pnc{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;  
+    margin: 80px 40px 0px 40px;
+}
+.why-pnc-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pnc-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.reason-describe{
+    padding: 0px 240px 0px 240px;
+    font-size: medium;
+}
+.reason-detail{
+    display: flex;
+}
+.reason-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .left-pic-top{
+        display: flex;
+        justify-content: center;
+    }
+    .left-pic-mid{
+        display: flex;
+        gap: 180px;
+        justify-content: center;
+    }
+}
+.reason-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    .right-one{
+        display: flex;
+        gap: 40px;
+    }
+}
+.add-reason{
+    // display: flex;
+    // justify-content: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    align-items: center;
+    background: linear-gradient(to right, #0b8aad, #1e6f8f, #038c93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.right-icon-describe{
+    display: flex;
+    align-items: center;
+}

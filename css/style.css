@@ -227,13 +227,20 @@ main {
 
 .education {
   flex: 1;
-  border: solid black 1px;
+  border: solid rgba(0, 166, 255, 0.905);
   border-radius: 10px;
   padding: 20px;
   display: flex;
   gap: 60px;
   flex-direction: column;
   flex: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.education:hover {
+  transform: translateY(-15px);
+  background-color: rgba(0, 149, 255, 0.058);
 }
 
 @media (min-width: 200px) and (max-width: 900px) {
@@ -253,11 +260,17 @@ main {
     font-size: 20px;
   }
   .right-in {
-    width: 190px;
+    width: 168px;
     height: 110px;
   }
   .before-pnc-describe, .in-pnc-describe {
     font-size: x-small;
+  }
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+  .right-in {
+    width: 340px;
+    height: 200px;
   }
 }
 .maps {
@@ -283,7 +296,7 @@ iframe {
   margin-left: 70px;
 }
 
-@media (min-width: 200px) and (max-width: 900px) {
+@media (min-width: 240px) and (max-width: 920px) {
   .maps {
     margin: 40px 0px 0px 0px;
     gap: 10px;
@@ -293,8 +306,14 @@ iframe {
   }
   iframe {
     margin-left: 0px;
-    width: 450px;
+    width: 410px;
     height: 140px;
+  }
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+  iframe {
+    width: 750px;
+    height: 160px;
   }
 }
 footer {

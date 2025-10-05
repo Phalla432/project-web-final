@@ -344,7 +344,6 @@ marquee {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
   }
   .reason-right .right-one {
     display: flex;
@@ -359,7 +358,7 @@ marquee {
   }
   .right-one {
     display: flex;
-    gap: 0px;
+    gap: 10px;
   }
   .add-reason {
     margin-top: 40px;
@@ -373,6 +372,11 @@ marquee {
     background-clip: text;
     font-size: 20px;
     font-weight: bold;
+  }
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+  .reason-right {
+    margin: 0px 40px 0px 40px;
   }
 }
 .my-experience-pnc {
@@ -505,6 +509,12 @@ marquee {
   #value {
     width: 80px;
     height: 80px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .values-icon {
+    display: flex;
+    gap: 100px;
   }
 }
 .pnc-mission {

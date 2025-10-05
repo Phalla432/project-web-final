@@ -73,3 +73,10 @@
         height: 80px;
     }
 }
+
+@media (min-width:600px) and (max-width:1024px){
+    .values-icon{
+        display: flex;
+        gap: 100px;
+    }
+}

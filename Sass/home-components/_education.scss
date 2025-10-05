@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 40px;
 }
-.both-education{
+.both-education {
     display: flex;
     gap: 40px;
 }
@@ -19,15 +19,21 @@
     background-clip: text;
     /* For Firefox */
 }
-.education{
+.education  {
     flex: 1;
-    border: solid black 1px;
+    border: solid rgba(0, 166, 255, 0.905);
     border-radius: 10px;
     padding: 20px;
     display: flex;
     gap: 60px;
     flex-direction: column;
     flex: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.education:hover{
+    transform: translateY(-15px);
+    background-color: rgba(0, 149, 255, 0.058);
 }
 
 @media (min-width:200px) and (max-width:900px){
@@ -47,10 +53,17 @@
         font-size: 20px;
     }
     .right-in{
-        width: 190px;
+        width: 168px;
         height: 110px;
     }
     .before-pnc-describe, .in-pnc-describe{
         font-size: x-small;
+    }
+}
+
+@media (min-width:700px) and (max-width:1024px){
+    .right-in{
+        width: 340px;
+        height: 200px ;
     }
 }

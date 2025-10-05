@@ -73,3 +73,10 @@
         height: 40px;
     }
 }
+
+@media (min-width:700px) and (max-width:1024px){
+    .left{
+        width: 360px;
+        height: 200px;
+    }
+}

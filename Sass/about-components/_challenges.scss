@@ -25,3 +25,29 @@
     border-radius: 60px 0px 60px 0px;
     color: white;
 }
+
+@media (min-width:300px) and (max-width:800px) {
+    .my-challenges {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .challenges-above {
+        display: flex;
+        gap: 40px;
+    }
+
+    .challenge-left, .challenge-right {
+        flex: 1;
+        background: linear-gradient(to right, #16728ccc, #857f09a4, #0bb7c070);
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px 0px 10px 0px;
+        color: white;
+        font-size: x-small;
+    }
+    .title{
+        font-size: 20px;
+    }
+}

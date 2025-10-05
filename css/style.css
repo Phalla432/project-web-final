@@ -111,7 +111,7 @@ marquee {
   /* For Firefox */
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 900px) {
   marquee {
     margin: 0px;
   }
@@ -177,7 +177,7 @@ main {
   padding: 40px;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 900px) {
   main {
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ main {
   flex: 1;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 900px) {
   .educations {
     margin: 40px 10px 0px 10px;
     gap: 10px;
@@ -283,7 +283,7 @@ iframe {
   margin-left: 70px;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 900px) {
   .maps {
     margin: 40px 0px 0px 0px;
     gap: 10px;
@@ -357,7 +357,7 @@ footer {
   font-weight: bold;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 900px) {
   footer {
     padding: 10px;
     margin-top: 20px;

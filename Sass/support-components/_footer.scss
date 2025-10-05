@@ -1,4 +1,4 @@
-footer{
+footer {
     display: flex;
     flex-direction: row;
     background: linear-gradient(to right, #0e657d73, #1d5064a0, #07737970);
@@ -6,14 +6,16 @@ footer{
     padding: 20px;
     margin-top: 40px;
 }
-.foot-left{
+
+.foot-left {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.foot-right{
+
+.foot-right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -21,65 +23,85 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.left-foot{
+
+.left-foot {
     display: flex;
 }
-.foot-name{
+
+.foot-name {
     display: flex;
     align-items: center;
 }
-.foot-contact-icons{
+
+.foot-contact-icons {
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-.foot-contacts{
+
+.foot-contacts {
     display: flex;
     gap: 20px;
 }
-.text{
+
+.text {
     display: flex;
     align-items: center;
 }
-.foot-title{
+
+.foot-title {
     color: orange;
 }
-.foot-name{
+
+.foot-name {
     color: rgb(4, 111, 177);
     font-weight: bold;
 }
 
-@media (min-width:300px) and (max-width:800px){
-    footer{
+@media (min-width:300px) and (max-width:800px) {
+    footer {
         padding: 10px;
         margin-top: 20px;
     }
-    #icon{
+
+    #icon {
         width: 15px;
         height: 15px;
     }
-    p{
+
+    p {
         font-size: x-small;
     }
-    .foot-right{
+
+    .foot-right {
         display: flex;
         gap: 0px;
     }
-    .foot-contact-icons{
+
+    .foot-contact-icons {
         display: flex;
         gap: 0px;
     }
-    .foot-name{
+
+    .foot-name {
         font-size: 6px;
     }
-    #icons{
+
+    #icons {
         width: 20px;
         height: 20px;
     }
-    .foot-title{
+
+    .foot-title {
         font-size: 10px;
     }
-    .text{
+
+    .text1 {
         font-size: x-small;
+    }
+
+    .foot-contacts {
+        display: flex;
+        gap: 10px;
     }
 }

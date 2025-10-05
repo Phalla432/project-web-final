@@ -16,14 +16,14 @@
   color: rgba(255, 255, 255, 0.559);
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 240px) and (max-width: 960px) {
   .header {
     height: 40vh;
     background-size: cover;
     background-position: center;
   }
   .about-welcome {
-    padding: 100px 80px 120px 100px;
+    padding: 100px 80px 180px 100px;
     font-size: 20px;
   }
 }
@@ -78,6 +78,26 @@
   .titles {
     font-size: 20px;
   }
+  .left {
+    width: 180px;
+    height: 140px;
+  }
+  .mission-right {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .mission-des-head {
+    font-size: 10px;
+  }
+  .mission-text {
+    font-size: x-small;
+    padding-top: 5px;
+  }
+  #runs {
+    width: 60px;
+    height: 40px;
+  }
 }
 .my-values {
   display: flex;
@@ -104,6 +124,37 @@
   color: rgb(225, 150, 10);
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .my-values {
+    display: flex;
+    gap: 0px;
+    margin: 20px 0px 0px 0px;
+  }
+  .value-head {
+    font-size: 12px;
+    text-align: center;
+  }
+  .value-text {
+    font-size: x-small;
+    padding-left: 10px;
+    color: rgb(49, 49, 49);
+  }
+  #run {
+    width: 40px;
+    height: 40px;
+  }
+  .value-one {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .values-describe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 footer {
   display: flex;
   flex-direction: row;
@@ -302,6 +353,29 @@ marquee {
   color: white;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .my-challenges {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 0px 0px 0px;
+  }
+  .challenges-above {
+    display: flex;
+    gap: 40px;
+  }
+  .challenge-left, .challenge-right {
+    flex: 1;
+    background: linear-gradient(to right, rgba(22, 114, 140, 0.8), rgba(133, 127, 9, 0.6431372549), rgba(11, 183, 192, 0.4392156863));
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+    font-size: x-small;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
 .my-achievenments {
   display: flex;
   flex-direction: column;
@@ -315,6 +389,23 @@ marquee {
   gap: 40px;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .my-achievenments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 0px 0px 0px;
+  }
+  .achievenments-above {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .achievenments {
+    width: 80px;
+    height: 80px;
+  }
+}
 body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;

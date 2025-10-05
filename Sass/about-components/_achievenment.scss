@@ -1,11 +1,31 @@
-.my-achievenments{
+.my-achievenments {
     display: flex;
     flex-direction: column;
     gap: 80px;
     margin: 120px 80px 0px 80px;
 }
-.achievenments-above{
+
+.achievenments-above {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+@media (min-width:300px) and (max-width:800px) {
+    .my-achievenments {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .achievenments-above {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .achievenments{
+        width: 80px;
+        height: 80px;
+    }
 }

@@ -1,10 +1,11 @@
-.pnc-back{
+.pnc-back {
     background-image: url(/images/pnc-back.png);
     height: 90vh;
     background-size: cover;
     background-position: center;
 }
-.text{
+
+.text {
     background: linear-gradient(to right, #0f10104f, #1a1b1b9c);
     // padding-top: 240px;
     // padding-left: 100px;
@@ -14,12 +15,37 @@
     margin-left: 80px;
     font-size: 90px;
     font-weight: bold;
-    background: linear-gradient(to right, rgb(5, 110, 186), #206e72, rgb(243, 244, 246)
-    );
+    background: linear-gradient(to right, rgb(5, 110, 186), #206e72, rgb(243, 244, 246));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-marquee{
+
+marquee {
     color: white;
+}
+
+@media (min-width:200px) and (max-width:900px) {
+    .pnc-back {
+        height: 40vh;
+    }
+
+    .text {
+        background: linear-gradient(to right, #0f10104f, #1a1b1b9c);
+        padding-top: 140px;
+        padding-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        background: linear-gradient(to right, rgb(5, 110, 186), #206e72, rgb(243, 244, 246));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    marquee{
+        font-size: 8px;
+        padding: 0px 0px 0px 0px;
+        margin-top: 10px;
+    }
 }

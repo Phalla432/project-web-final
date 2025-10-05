@@ -52,4 +52,24 @@
     .titles{
         font-size: 20px;
     }
+    .left{
+        width: 180px;
+        height: 140px;
+    }
+    .mission-right{
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .mission-des-head{
+        font-size: 10px;
+    }
+    .mission-text{
+        font-size: x-small;
+        padding-top: 5px;
+    }
+    #runs{
+        width: 60px;
+        height: 40px;
+    }
 }

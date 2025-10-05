@@ -10,17 +10,20 @@
     flex-direction: column;
     gap: 4px;
 }
-
+.values-icon{
+    display: flex;
+    justify-content: center;
+}
 .values-describe {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
 .value-head {
     font-size: larger;
     font-weight: bold;
     color: rgb(225, 150, 10);
+    text-align: center;
 }
 
 @media (min-width:300px) and (max-width:800px) {
